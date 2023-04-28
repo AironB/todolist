@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    color: white;
+
+}
+h2{
+    color: chartreuse;
+    text-align: center;
+}
+.contenedor{
+    align-content: center;
+    text-align: center;
+    
+}
+li{
+    list-style:none;
+    margin-bottom: 5px;
+    font-size: medium;
+}
+
+a.enlace-eliminar{
+    margin-left:10px;
+    text-decoration:none;
+    font-size: 2rem;
+}
+.tachado{
+    text-decoration:line-through;
+    text-decoration-color: red;
+    text-decoration-line: line-through;
+}
+button{
+    border-radius:2rem;
+}
+label{
+    text-align: center;
+}

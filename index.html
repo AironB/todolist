@@ -1,0 +1,45 @@
+<!Doctype html>
+<html lang="en">
+   <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> de tareas con JS</title>
+   
+
+    
+    <link rel="stylesheet" href="css/estilo.css">
+       </head>
+   <body>
+      <div id="contenedor" class="contenedor" name="contenedor">
+         <div>
+         <h1 class="logotipo">Lista de tareas pendientes</h1>
+         </div>
+         <div><img src="images/task.png" height="120" weigth="120"></div>
+         <h3>Instrucciones:</h3><label>
+         Digite una tarea por hacer en el textbox que tiene la lectura " digite una tarea por hacer"
+         Posteriormente presione el boton con la lectura Agregar tarea y a continuacion vera en la parte de abajo las tareas pendientes por realizar
+      </label><br>
+      <label for="inputNuevaTarea">Agregar nueva tarea:</label>
+        <input type="text" id="inputNuevaTarea" placeholder="Digite una tarea a agregar">
+        <button id="btnAgregarTarea" name="btnAgregarTarea">Agregar Tarea</button>
+       <br>
+       <br>
+       <label>Si desea buscar una tarea dentro de las pendientes en el textbox con la lectura "Tarea a buscar" digite el nombre de la tarea que desea buscar</label>
+        <br><label>Buscar Tarea: </label>
+        <input type="text" id="BuscarTarea" name="BuscarTarea" placeholder="Tarea a buscar">
+        <button id="btnBuscarTarea" name="btnBuscarTarea" name="btnBuscarTarea">Buscar Tarea</button>
+        <div>
+               <h2>Lista de tareas</h2>
+               <ul id="contenedorTareas" class="contenedortask"></ul>
+               
+            </div>
+            <label>Si desea eliminar completamente las tareas presione el boton Eliminar todas, y automaticamente vaciara la lista de tareas</label>
+            <br><button id="btnEliminarTareas" name="btnEliminarTareas">Eliminar todas las tareas</button>
+         </div>
+         <label>By AironBautista</label>
+   </body>
+   <script src="js/script.js">
+
+   </script>
+</html>
